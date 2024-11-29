@@ -63,6 +63,11 @@
             <div class="form-group">
                 <input type="file" name="image" accept="image/*" class="form-control-file" required>
             </div>
+            <!-- Image Preview -->
+            <div id="image-preview-container" style="display: none;">
+                <h3>Uploaded Image Preview:</h3>
+                <img id="image-preview" src="" alt="Image Preview">
+            </div>
             <!-- Analyze Button -->
             <button type="submit" id="analyze-button" class="btn btn-primary btn-block" disabled>Analyze Image</button>
         </form>
