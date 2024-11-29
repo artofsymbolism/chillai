@@ -1,0 +1,82 @@
+/* Additional Styles for Selection Buttons */
+
+/* Selection Buttons Container */
+.selection-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+/* Individual Selection Labels */
+.selection-buttons label {
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Hide Radio Inputs */
+.selection-buttons input[type="radio"] {
+    display: none;
+}
+
+/* Custom Radio Button Style */
+.selection-buttons span {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+/* Selected State */
+.selection-buttons input[type="radio"]:checked + span {
+    background-color: #ff79c6;
+}
+
+/* Disabled Analyze Button Style */
+#analyze-button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+/* Update Form Input Margins */
+#analyze-form input[type="text"],
+#analyze-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+/* Styles for Result Display */
+#result {
+    margin-top: 30px;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    max-width: 500px;
+    text-align: left;
+}
+
+#result p {
+    margin-bottom: 10px;
+}
+
+/* Background Video */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
