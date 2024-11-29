@@ -114,3 +114,17 @@ nav ul li a:hover {
     background-color: #ff4081;
 }
 
+/* Image Preview Styles */
+#image-preview-container {
+    margin-top: 20px;
+}
+
+#image-preview {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff4081;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
