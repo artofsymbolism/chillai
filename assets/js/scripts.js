@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
           chillType: chillType,
         };
   
-        fetch('http://localhost:5000/analyze-image', {
+        fetch('https://art-of-symbolism.onrender.com/analyze-image', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -74,4 +74,3 @@ document.addEventListener('DOMContentLoaded', function() {
       };
     });
   });
-  
