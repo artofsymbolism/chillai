@@ -10,10 +10,8 @@ const port = process.env.PORT || 5000;
 
 app.use(cors({
   origin: [
-    'https://www.chillgirl.com',
-    'https://chillgirl.com',
-    'http://www.chillgirl.com',
-    'http://chillgirl.com'
+    'https://artofsymbolism.github.io', // Allow GitHub Pages domain
+    'https://artofsymbolism.github.io/chillai'
   ],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
