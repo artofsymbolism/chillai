@@ -80,3 +80,37 @@
     min-height: 100%;
     object-fit: cover;
 }
+
+/* Navigation Bar */
+nav {
+    background: rgba(30, 30, 30, 0.95);
+}
+
+nav .logo a {
+    color: #ff4081; /* More vivid pink */
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ff4081;
+}
+
+/* Buttons */
+#analyze-form button {
+    background-color: #ff4081;
+}
+
+#analyze-form button:hover {
+    background-color: #ff1a75;
+}
+
+/* Selection Buttons */
+.selection-buttons span {
+    background-color: #333;
+    color: #fff;
+}
+
+.selection-buttons input[type="radio"]:checked + span {
+    background-color: #ff4081;
+}
+
